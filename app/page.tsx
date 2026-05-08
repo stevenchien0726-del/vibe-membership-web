@@ -19,10 +19,10 @@ const plans = [
     features: {
       vibeTv: [
         { label: '可觀看 Vibe TV 所有內容', included: true },
-        { label: '最多4部裝置同時觀看', included: true },
+        { label: '最多4部裝置同時觀看，可在電視觀看', included: true },
       ],
       vibelink: [
-        { label: 'AI雷達:每周GPT-5 mini 模型上限20則，達到次數轉GPT-5 nano每周額外100則', included: true },
+        { label: '每月GPT-5 mini 模型上限80則，達到次數轉GPT-4o mini 每月額外800則', included: true },
         { label: 'Vibelink 零廣告體驗', included: false },
       ],
     },
@@ -38,7 +38,7 @@ const plans = [
         { label: '含Vibe Plus所有Vibe TV體驗', included: true },
       ],
       vibelink: [
-        { label: 'AI雷達:每周GPT-5模型上限30則，達到次數轉GPT-5 mini 模型無限使用', included: true },
+        { label: '每月GPT-5 mini 模型無限使用', included: true },
         { label: 'Vibelink 零廣告體驗', included: true },
       ],
     },
