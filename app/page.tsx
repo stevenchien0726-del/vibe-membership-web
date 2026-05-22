@@ -22,7 +22,7 @@ const plans = [
         { label: '最多4部裝置同時觀看，可在電視觀看', included: true },
       ],
       vibelink: [
-        { label: 'AI雷達: 每月GPT-5.4 mini 每月上限800則', included: true },
+        { label: 'AI雷達: 每月GPT-5.4 mini 每周上限150則', included: true },
         { label: 'Vibelink 零廣告體驗', included: false },
       ],
     },
