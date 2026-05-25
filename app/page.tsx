@@ -13,7 +13,7 @@ const plans = [
   {
     id: 'plus',
     name: 'Vibe Plus',
-    price: 260,
+    price: 250,
     accent: 'from-fuchsia-400 to-pink-400',
     recommended: false,
     features: {
