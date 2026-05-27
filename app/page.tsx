@@ -31,7 +31,7 @@ const membershipText = {
     comingSoon: '即將上線',
     plusAi: 'AI雷達: GPT-5.4 mini 模型每周上限150則',
     premiumAi: 'AI雷達: 每月GPT-5 mini 模型無限使用',
-    adFree: 'Vibelink 零廣告體驗',
+    
   },
   en: {
     title: 'Membership',
@@ -74,7 +74,7 @@ function getPlans(t: (typeof membershipText)[Locale]) {
         vibeTv: [{ label: t.comingSoon, included: true }],
         vibelink: [
           { label: t.plusAi, included: true },
-          { label: t.adFree, included: false },
+          
         ],
       },
     },
@@ -87,7 +87,7 @@ function getPlans(t: (typeof membershipText)[Locale]) {
         vibeTv: [{ label: t.comingSoon, included: true }],
         vibelink: [
           { label: t.premiumAi, included: true },
-          { label: t.adFree, included: true },
+          
         ],
       },
     },
