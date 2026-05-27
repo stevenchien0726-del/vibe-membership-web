@@ -74,7 +74,6 @@ function getPlans(t: (typeof membershipText)[Locale]) {
         vibeTv: [{ label: t.comingSoon, included: true }],
         vibelink: [
           { label: t.plusAi, included: true },
-          
         ],
       },
     },
