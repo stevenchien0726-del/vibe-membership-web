@@ -29,8 +29,8 @@ const membershipText = {
     autoRenewDesc: '到期後自動延續目前方案或取消',
     paymentMethod: '付款方式',
     comingSoon: '即將上線',
-    plusAi: 'AI雷達: GPT-5.4 mini 模型每周上限150則',
-    premiumAi: 'AI雷達: 每月GPT-5 mini 模型無限使用',
+    plusAi: 'AI雷達: GPT模型每周上限150則',
+    premiumAi: 'AI雷達: 每月GPT模型無限使用',
     
   },
   en: {
@@ -50,9 +50,9 @@ const membershipText = {
     autoRenewDesc: 'Automatically renew or cancel your current plan after expiration',
     paymentMethod: 'Payment Method',
     comingSoon: 'Coming Soon',
-    plusAi: 'AI Radar: GPT-5.4 mini model, 150 uses per week',
-    premiumAi: 'AI Radar: Unlimited GPT-5 mini model usage monthly',
-    adFree: 'Ad-free Vibelink experience',
+    plusAi: 'AI Radar: GPT model, 150 uses per week',
+    premiumAi: 'AI Radar: Unlimited GPT model usage monthly',
+    
   },
 } as const
 
