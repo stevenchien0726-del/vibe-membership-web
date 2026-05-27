@@ -30,7 +30,7 @@ const membershipText = {
     paymentMethod: '付款方式',
     comingSoon: '即將上線',
     plusAi: 'AI雷達: GPT模型每周上限150則',
-    premiumAi: 'AI雷達: 每月GPT模型無限使用',
+    premiumAi: 'AI雷達: GPT模型每周上限350則',
     
   },
   en: {
@@ -51,7 +51,7 @@ const membershipText = {
     paymentMethod: 'Payment Method',
     comingSoon: 'Coming Soon',
     plusAi: 'AI Radar: GPT model, 150 uses per week',
-    premiumAi: 'AI Radar: Unlimited GPT model usage monthly',
+    premiumAi: 'AI Radar: GPT model, 350 uses per week',
     
   },
 } as const
