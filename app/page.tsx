@@ -278,6 +278,12 @@ export default function Page() {
           </div>
         </div>
 
+        <div className="mb-4 rounded-[22px] border border-fuchsia-400/15 bg-gradient-to-r from-fuchsia-500/10 via-purple-500/10 to-transparent px-4 py-3 shadow-[0_6px_24px_rgba(168,85,247,0.12)] backdrop-blur-xl">
+  <div className="text-center text-[14px] font-medium tracking-wide text-fuchsia-100">
+    Vibe會員尚未正式上線，敬請期待
+  </div>
+</div>
+
         <div className="mb-6 rounded-[28px] border border-white/12 bg-gradient-to-br from-[#241630]/78 via-[#12111a]/72 to-black/72 p-5 shadow-[0_10px_40px_rgba(0,0,0,0.4)] backdrop-blur-xl">
           <div className="mb-4 flex items-center justify-between">
             <div className="text-lg font-semibold text-white">{t.currentStatus}</div>
